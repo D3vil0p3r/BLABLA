@@ -1,5 +1,5 @@
 name: "🐞 Bug Report"
-description: "Create a generic bug report against a package."
+description: "Create a generic bug report against a package or a system misbehavior."
 title: "[BUG]: "
 labels: ["type::bug"]
 body:
