@@ -66,3 +66,38 @@ body:
       description: "Include a concise summary of the intended outcome."
     validations:
       required: true
+
+  - type: "textarea"
+    id: "screenshots"
+    attributes:
+      label: "Screenshots"
+      description: |
+        Where applicable, provide screenshots to aid in explaining the issue.
+        Instructions for uploading images are available in the [GitHub documentation](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#uploading-assets).
+    validations:
+      required: false
+
+  - type: "textarea"
+    id: "logs"
+    attributes:
+      label: "Relevant log output"
+      description: |
+        Copy and paste any relevant log output.
+        This will be automatically formatted into code, so no need for backticks.
+      render: "console"
+    validations:
+      required: false
+
+  - type: "checkboxes"
+    id: "sanity-check"
+    attributes:
+      label: "I confirm that this issue is relevant for BlackArch"
+      description: |
+        This bug tracker is intended for actionable issues and does not cover problems caused by user error. If you are unsure whether you have encountered a BlackArch bug, please consider seeking help in the [BlackArch Matrix Space](https://matrix.to/#/#community:nixos.org) before opening an issue.
+      options:
+        - label: "I assert that this is a bug and not a support request."
+          required: true
+        - label: "I assert that this is not a [duplicate of an existing issue](https://github.com/BlackArch/blackarch/issues?q=is%3Aopen%20is%3Aissue%20label%3Atype%3A%3Abug). "
+          required: true
+        - label: "I assert that I have read the [BlackArch Code of Conduct](https://github.com/BlackArch/.github/blob/master/CODE_OF_CONDUCT.md) and agree to abide by it."
+          required: true
