@@ -99,5 +99,5 @@ body:
           required: true
         - label: "I assert that this is not a [duplicate of an existing issue](https://github.com/BlackArch/blackarch/issues?q=is%3Aopen%20is%3Aissue%20label%3Atype%3A%3Abug). "
           required: true
-        - label: "I assert that I have read the [BlackArch Code of Conduct](https://github.com/BlackArch/.github/blob/master/CODE_OF_CONDUCT.md) and agree to abide by it."
+        - label: "I assert that I have read the [Arch Linux Code of Conduct](https://terms.archlinux.org/docs/code-of-conduct/) and agree to abide by it."
           required: true
