@@ -58,3 +58,11 @@ body:
       description: "Please provide a step-by-step guide to reproduce this issue. Use concise, numbered bullet points so BlackArch developers can easily follow and replicate the problem."
     validations:
       required: true
+
+  - type: "input"
+    id: "expected-behaviour"
+    attributes:
+      label: "Expected behaviour"
+      description: "Include a concise summary of the intended outcome."
+    validations:
+      required: true
