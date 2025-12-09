@@ -33,16 +33,6 @@ body:
         - label: "QEMU/KVM"
         - label: "Container"
 
-  - type: input
-    attributes:
-      label: Kernel version
-      description: |
-        Please tell us what version of the Linux kernel you are using, or if you are using a custom kernel. 
-        You can run `uname -r` if that command is available to you, or by running `cat /proc/version`.
-      placeholder: "6.17.9-arch1-1"
-    validations:
-      required: false
-
     - type: "textarea"
       id: "description"
       attributes:
