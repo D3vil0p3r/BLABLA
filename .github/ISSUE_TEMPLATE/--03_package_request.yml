@@ -57,7 +57,7 @@ body:
           required: true
         - label: "I assert that this is not a [duplicate of an existing request](https://github.com/BlackArch/blackarch/issues?q=is%3Aopen%20is%3Aissue%20label%3Atype%3A%3Atool-request). "
           required: true
-        - label: "I have reviewed the PKGBUILD templates and understand that pull requests are preferred when possible."
+        - label: "I have reviewed the [PKGBUILD templates](https://github.com/BlackArch/blackarch-pkgbuilds) and understand that pull requests are preferred when possible."
           required: true
         - label: "I assert that I have read the [Arch Linux Code of Conduct](https://terms.archlinux.org/docs/code-of-conduct/) and agree to abide by it."
           required: true
