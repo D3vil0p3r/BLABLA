@@ -47,7 +47,6 @@ body:
     attributes:
       label: "I confirm that this request is relevant for BlackArch"
       description: |
-        This issue tracker is intended for actionable requests.  
         Before opening a package request, please consider submitting a pull request using the official PKGBUILD templates available in the
         [BlackArch PKGBUILDs repository](https://github.com/BlackArch/blackarch-pkgbuilds).
 
