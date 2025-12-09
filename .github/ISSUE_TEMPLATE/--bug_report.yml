@@ -44,16 +44,7 @@ body:
       required: false
 
         
-    - type: "textarea"
-      id: "logs"
-      attributes:
-        label: "Relevant log output"
-        description: |
-          Copy and paste any relevant log output.
-          This will be automatically formatted into code, so no need for backticks.
-        render: "console"
-      validations:
-        required: false
+
         
     - type: "checkboxes"
       id: "sanity-check"
