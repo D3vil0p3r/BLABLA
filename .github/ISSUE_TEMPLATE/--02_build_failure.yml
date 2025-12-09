@@ -1,4 +1,4 @@
-name: "🏗️ Build Failure"
+name: "🏗️ Build failure"
 description: "Submit a report for a package build failure."
 title: "Build failure: PACKAGENAME"
 labels: ["type::build"]
