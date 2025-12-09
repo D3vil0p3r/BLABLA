@@ -43,4 +43,10 @@ body:
     validations:
       required: false
 
-        
+  - type: "textarea"
+    id: "description"
+    attributes:
+      label: "Describe the bug"
+      description: "Please include a clear and concise description of what the issue is."
+    validations:
+      required: true
