@@ -21,7 +21,7 @@ body:
           For example, Python 2 or other retired technologies that introduce security or compatibility issues.
 
         - <span style="color:red"><strong>🚫 Wrapper scripts with no unique functionality</strong></span>  
-          Scripts that simply call another tool with preset arguments (e.g., an Nmap front-end that just runs `nmap -sV ...`).
+          Scripts that simply call another tool with preset arguments (e.g., a front-end that just runs `nmap -sV ...`).
 
         - <span style="color:red"><strong>🚫 Non-portable or broken build systems</strong></span>  
           Tools tied to a specific non-Arch distribution or that cannot be cleanly built on Arch/BlackArch.
@@ -30,7 +30,7 @@ body:
           Tools already covered by better-maintained or more widely-used alternatives in the repository.
 
         - <span style="color:red"><strong>🚫 Unnecessary anonymization helpers</strong></span>  
-          Scripts such as “free VPN launcher” tools. BlackArch already includes **torctl** for legitimate anonymization workflows.
+          Scripts such as “free VPN launcher” tools. BlackArch already includes **torctl** for legitimate anonymization.
 
         **Before submitting, please confirm that your requested tool does not fall into any of the categories above.**
 
