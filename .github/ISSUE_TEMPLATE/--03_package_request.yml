@@ -3,14 +3,10 @@ description: "Create a package request for software that is not yet included in 
 title: "Package request: PACKAGENAME"
 labels: ["type::tool-request"]
 body:
-- type: "markdown"
-  attributes:
-    value: |
-
   - type: "markdown"
     attributes:
       value: |
-        
+        <br>
         ### ⚠️ Before you submit…
 
         <details>
