@@ -9,30 +9,30 @@ body:
         <details>
         <summary><strong>📌 Click here to review reasons why tool requests may be declined</strong></summary>
 
-        #### **❗ Hard reject reasons (will not be accepted)**
+        #### **❗ Reject Reasons (will not be accepted)**
 
-        - <span style="color:red"><strong>🚫 Tools intended for illegal or unethical activity</strong></span>  
-          Examples: brute-forcing social media accounts, DoS attack scripts, credential-harvesting kits.
+        - <span style="color:red"><strong>🚫 Illegal or unethical tools</strong></span>  
+          Examples include brute-forcing social media accounts, DoS attack scripts, or credential-harvesting kits.
 
-        - <span style="color:red"><strong>🚫 Abandoned / extremely outdated software</strong></span>  
-          Especially when it no longer builds or creates dependency conflicts.
+        - <span style="color:red"><strong>🚫 Abandoned or extremely outdated software</strong></span>  
+          Especially if it no longer builds, creates dependency conflicts, or has no active upstream maintenance.
 
-        - <span style="color:red"><strong>🚫 Python 2-only projects</strong></span>  
-          Python 2 is retired and cannot be included due to dependency and security issues.
+        - <span style="color:red"><strong>🚫 Tools depending on deprecated languages or libraries</strong></span>  
+          For example, Python 2 or other retired technologies that introduce security or compatibility issues.
 
-        #### **⚠️ Common reject reasons (discouraged or unnecessary)**
+        - <span style="color:red"><strong>🚫 Wrapper scripts with no unique functionality</strong></span>  
+          Scripts that simply call another tool with preset arguments (e.g., an Nmap front-end that just runs `nmap -sV ...`).
 
-        - **Wrapper scripts** that merely call another tool with predefined arguments  
-          (Example: an Nmap front-end that just runs `nmap -sV ...`.)
+        - <span style="color:red"><strong>🚫 Non-portable or broken build systems</strong></span>  
+          Tools tied to a specific non-Arch distribution or that cannot be cleanly built on Arch/BlackArch.
 
-        - **Broken or non-portable build systems**, or software tied to a specific non-Arch distribution.
+        - <span style="color:red"><strong>🚫 Duplicate functionality</strong></span>  
+          Tools already covered by better-maintained or more widely-used alternatives in the repository.
 
-        - **Tools duplicating functionality already provided** by better-maintained or more popular alternatives.
+        - <span style="color:red"><strong>🚫 Unnecessary anonymization helpers</strong></span>  
+          Scripts such as “free VPN launcher” tools. BlackArch already includes **torctl** for legitimate anonymization workflows.
 
-        - **Anonymization helper scripts or “free VPN launcher” scripts**, which are unnecessary  
-          since BlackArch already provides **torctl** for legitimate anonymization workflows.
-
-        **Please ensure your request does not fall under these categories before continuing.**
+        **Before submitting, please confirm that your requested tool does not fall into any of the categories above.**
 
         </details>
 
