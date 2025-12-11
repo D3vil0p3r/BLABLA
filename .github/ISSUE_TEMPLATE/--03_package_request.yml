@@ -6,7 +6,9 @@ body:
   - type: "markdown"
     attributes:
       value: |
+      
         <br>
+        
         ### ⚠️ Before you submit…
 
         <details>
