@@ -3,6 +3,41 @@ description: "Create a package request for software that is not yet included in 
 title: "Package request: PACKAGENAME"
 labels: ["type::tool-request"]
 body:
+  - type: "markdown"
+    attributes:
+      value: |
+        ## ⚠️ Before you submit…
+
+        <details>
+        <summary><strong>📌 Click here to review reasons why tool requests may be declined</strong></summary>
+
+        ### **❗ Hard reject reasons (will not be accepted)**
+
+        - <span style="color:red"><strong>🚫 Tools intended for illegal or unethical activity</strong></span>  
+          Examples: brute-forcing social media accounts, DoS attack scripts, credential-harvesting kits.
+
+        - <span style="color:red"><strong>🚫 Abandoned / extremely outdated software</strong></span>  
+          Especially when it no longer builds or creates dependency conflicts.
+
+        - <span style="color:red"><strong>🚫 Python 2-only projects</strong></span>  
+          Python 2 is retired and cannot be included due to dependency and security issues.
+
+        ### **⚠️ Common reject reasons (discouraged or unnecessary)**
+
+        - **Wrapper scripts** that merely call another tool with predefined arguments  
+          (Example: an Nmap front-end that just runs `nmap -sV …`.)
+
+        - **Broken or non-portable build systems**, or software tied to a specific non-Arch distribution.
+
+        - **Tools duplicating functionality already provided** by better-maintained or more popular alternatives.
+
+        - **Anonymization helper scripts or “free VPN launcher” scripts**, which are unnecessary  
+          since BlackArch already provides **torctl** for legitimate anonymization workflows.
+
+        **Please ensure your request does not fall under these categories before continuing.**
+
+        </details>
+
   - type: "textarea"
     id: "description"
     attributes:
