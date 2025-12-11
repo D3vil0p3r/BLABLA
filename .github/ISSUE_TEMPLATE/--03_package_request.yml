@@ -6,12 +6,12 @@ body:
   - type: "markdown"
     attributes:
       value: |
-        ## ⚠️ Before you submit…
+        ### ⚠️ Before you submit…
 
         <details>
         <summary><strong>📌 Click here to review reasons why tool requests may be declined</strong></summary>
 
-        ### **❗ Hard reject reasons (will not be accepted)**
+        #### **❗ Hard reject reasons (will not be accepted)**
 
         - <span style="color:red"><strong>🚫 Tools intended for illegal or unethical activity</strong></span>  
           Examples: brute-forcing social media accounts, DoS attack scripts, credential-harvesting kits.
@@ -22,10 +22,10 @@ body:
         - <span style="color:red"><strong>🚫 Python 2-only projects</strong></span>  
           Python 2 is retired and cannot be included due to dependency and security issues.
 
-        ### **⚠️ Common reject reasons (discouraged or unnecessary)**
+        #### **⚠️ Common reject reasons (discouraged or unnecessary)**
 
         - **Wrapper scripts** that merely call another tool with predefined arguments  
-          (Example: an Nmap front-end that just runs `nmap -sV …`.)
+          (Example: an Nmap front-end that just runs `nmap -sV ...`.)
 
         - **Broken or non-portable build systems**, or software tied to a specific non-Arch distribution.
 
